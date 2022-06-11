@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles/navbar.css">
         <link rel="icon" type="image" href="images/icon.png">
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -25,14 +26,12 @@
         </header>
 
         <main>
-            <div data-aos="flip-up" class="imgdiv">
-                <img class="indiv" src="screenshots/1.jpg">
+
+            <div data-aos="flip-right" class="imgdiv">
+                <img class="screenshot" src="screenshots/1.jpg">
             </div>
-
-
-
-            <div class="imgdiv">
-                <img class="indiv" src="screenshots/2.jpg">
+            <div data-aos="flip-right" class="imgdiv">
+                <img class="screenshot" src="screenshots/2.jpg">
             </div>
 
         </main>
@@ -40,6 +39,9 @@
         <footer>
 
         </footer>
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
