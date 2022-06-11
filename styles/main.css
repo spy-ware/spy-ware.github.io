@@ -1,0 +1,57 @@
+body {
+    background:
+        linear-gradient(160deg, #892915 25%, transparent 25%) -50px 0,
+        linear-gradient(200deg, #6D1B0A 25%, transparent 25%) -50px 0,
+        linear-gradient(340deg, #892915 25%, transparent 25%),
+        linear-gradient(20deg, #6D1B0A 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #521306;
+}
+
+.centerdiv {
+    margin: auto;
+    background-color: aliceblue;
+    width: 75%;
+    padding-bottom: 99%;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    background: linear-gradient(37deg, rgba(147, 237, 255, 1) 0%, rgba(255, 255, 255, 1) 86%);
+}
+
+.indiv {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    color: #110604;
+    float: none;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.emoji {
+    width: 30%;
+
+}
+
+.imgdiv {
+
+    position: relative;
+    text-align: center;
+    color: white;
+    display: grid;
+    height: 50%;
+}
+
+
+.descimg {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    max-width: 50%;
+    max-height: 50vh;
+    margin: auto;
+
+}
